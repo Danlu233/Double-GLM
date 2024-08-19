@@ -1,7 +1,8 @@
-library(dglm)
 library(data.table)
 library(stringr)
 library(dplyr)
+library(splines)
+library(mgcv)
 source("DGLM_function.R")
 
 load ("sample_data.RData")
